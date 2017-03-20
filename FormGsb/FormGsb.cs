@@ -42,5 +42,6 @@ namespace FormGsb
             newMDIChild.Dock = DockStyle.Fill;
             newMDIChild.Show();
         }
+     
     }
 }

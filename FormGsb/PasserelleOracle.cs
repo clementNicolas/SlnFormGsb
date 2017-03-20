@@ -227,7 +227,7 @@ namespace FormGsb
 
         public static void creerVisite(Visite uneVisite)
         { 
-            string oradb = "Data Source= 192.168.60.53:1521;User Id=GSB;Password=password;";
+            string oradb = "Data Source= localhost;User Id=GSB;Password=password;";
             OracleConnection conn = new OracleConnection(oradb);
             conn.Open();
             OracleCommand cmd = new OracleCommand();
